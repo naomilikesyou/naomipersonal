@@ -63,10 +63,12 @@ body{
 	padding-top:0;
 	margin-left: 0;
 	margin-right: 0;
-	background:#fefefe url("BOSSlogo.jpg") no-repeat right top;
-	background-size: 100% auto;
+	background:#fefefe url("BOSSlogo.jpg") no-repeat;
+	background-position: 50% 150px;
 	background-attachment: fixed;
 }
-h1 {
-	text-align: center;
+
+img {
+	max-width: 100%
 }
+
