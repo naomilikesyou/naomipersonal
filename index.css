@@ -1,0 +1,9 @@
+.navbar { margin-top: 90px;
+		background-color: white;
+		border-color: white;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
