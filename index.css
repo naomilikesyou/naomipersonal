@@ -58,6 +58,15 @@
 
 /* navbar end */
 
+body{
+	margin-top: 0;
+	padding-top:0;
+	margin-left: 0;
+	margin-right: 0;
+	background:#fefefe url("BOSSlogo.jpg") no-repeat right top;
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
 h1 {
 	text-align: center;
 }
