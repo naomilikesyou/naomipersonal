@@ -1,9 +1,57 @@
-.navbar { margin-top: 90px;
-		background-color: white;
-		border-color: white;
 
+.navbar { 
+	margin-top: 90px;
+	background-color: white;
+	border-color: white;
+	font-family: Arial;
+	font-size: 18px;
+	text-align: center;
+	padding: center;
+}
+
+.navbar-nav > li{
+	padding-left:30px;
+	padding-right:30px;
+}
+.dropdown {
+	text-align: center;
+	background-color: white;
+	font-size: 18px;
 }
 
 .dropdown:hover .dropdown-menu {
     display: block;
  }
+
+.dropdown-menu {
+ 	text-align: center;
+ 	border-color: white;
+ }
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: white;
+    font-size: 16px;
+  }
+
+.navbar-default .navbar-nav > li > a {
+	color: black; 
+    }
+
+ .dropdown-menu > li > a:hover,
+ .dropdown-menu > li > a:focus {
+ 	color: #262626;
+	text-decoration: none;
+	font-size: 16px;
+   /*change color of links in drop down here*/
+   }
+
+   @media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
